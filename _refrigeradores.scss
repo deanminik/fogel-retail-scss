@@ -1,0 +1,522 @@
+/*refrigeradores section*
+
+/*primer fila*/
+.parent-primer-fila {
+    margin-top: 40px;
+    display: flex;
+}
+
+.div-imagen {
+    width: 50px;
+    margin-left: 151px;
+    margin-right: 150px;
+}
+.breadcrumbs-fake {
+    order: 1;
+}
+h4.refrigeradores-avenir-book {
+    font-family: "avenir-book-normal";
+    font-size: 14px;
+    margin-left: -130px;
+}
+
+/*segunda fila*/
+.segunda-fila {
+    display: flex;
+}
+
+.div-refrigeradores {
+    margin-top: 11px;
+    margin-left: 151px;
+    margin-right: 228px;
+    font-family: "avenir-black-strong";
+    font-size: 36px;
+}
+
+h1.avenir-black-refrigeradores {
+    font-size: 36px;
+}
+
+.div-texto {
+    margin-right: 130px;
+    font-family: "avenir-book-normal";
+}
+/* tercerfila */
+.tercer-fila {
+    display: flex;
+    margin-left: 151px;
+    margin-right: 130px;
+    justify-content: space-between;
+}
+
+.cuadro-1 {
+    box-shadow: inset 0 -3em 4em rgba(0, 0, 0, 0.8), 0 0 0 10px rgb(255, 255, 255), 0.3em 0.1em 1em rgba(0, 0, 0, 0.1);
+    background-image: url("https://www.fogelretail.com/wp-content/uploads/2021/03/puertas-de-vidrio-refrigeradores..jpg");
+
+    width: 220px;
+
+    background-size: cover;
+}
+.titulo-1,
+.titulo-2,
+.titulo-3,
+.titulo-4 {
+    margin-top: 230px;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+
+.cuadro-2 {
+    background-image: url("https://www.fogelretail.com/wp-content/uploads/2021/03/puertas-solidas-refrigeracion.jpg");
+    width: 220px;
+    background-size: cover;
+    box-shadow: inset 0 -3em 4em rgba(0, 0, 0, 0.8), 0 0 0 10px rgb(255, 255, 255), 0.3em 0.1em 1em rgba(0, 0, 0, 0.1);
+}
+.cuadro-3 {
+    background-image: url("https://www.fogelretail.com/wp-content/uploads/2021/03/froster-cerveza-bajo-cero-grados.jpg");
+    width: 220px;
+    background-size: cover;
+    box-shadow: inset 0 -3em 4em rgba(0, 0, 0, 0.8), 0 0 0 10px rgb(255, 255, 255), 0.3em 0.1em 1em rgba(0, 0, 0, 0.1);
+}
+.cuadro-4 {
+    background-image: url("https://www.fogelretail.com/wp-content/uploads/2021/03/froster-para-cervezas-.jpg");
+    box-shadow: inset 0 -3em 4em rgba(0, 0, 0, 0.8), 0 0 0 10px rgb(255, 255, 255), 0.3em 0.1em 1em rgba(0, 0, 0, 0.1);
+    width: 220px;
+    background-size: cover;
+}
+
+/*última fila destacados*/
+.section.mcb-section.mcb-section-g7qpmx0dz.cuarta-fila-refrigeradores {
+    margin-right: -50px;
+}
+
+/*cuarta fila */
+/*cuadro 1 inicio*/
+.wrap.mcb-wrap.mcb-wrap-zhpa9q15x.one-third.wrap-destacados-cuadro-1.valign-top.clearfix {
+    background-color: #e7e8f4;
+    margin-left: -50px;
+    margin-right: 25px;
+}
+
+.cuadro-1-destacados {
+    display: flex;
+}
+
+img.img-uno-donde-comrar {
+    width: 200px;
+    margin-left: 78px;
+    margin-top: -10px;
+    margin-bottom: -80px;
+}
+
+p.prf-donde-comprar {
+    position: absolute;
+    padding-top: 90px;
+    color: black;
+}
+.column.mcb-column.mcb-item-nru7361yk.one.column_button {
+    margin-top: -100px;
+    margin-left: 20px;
+}
+
+/*cuadro 2 inicio */
+.wrap.mcb-wrap.mcb-wrap-6xlrvrv8v.one-third.wrap-destacados-cuadro-2.valign-top.clearfix {
+    background-color: #e7e8f4;
+    margin-right: 25px;
+}
+.cuadro-2-destacados {
+    display: flex;
+}
+
+p.prf-soporte {
+    position: absolute;
+    padding-top: 90px;
+    color: black;
+}
+
+img.img-dos-soporte {
+    width: 240px;
+    margin-left: 78px;
+    margin-top: -10px;
+    margin-bottom: -135px;
+}
+
+.column.mcb-column.mcb-item-tx9blf259.one.column_button {
+    margin-left: 20px;
+    margin-top: -px;
+}
+/*cuadro 3 inicio*/
+.wrap.mcb-wrap.mcb-wrap-1ajemqtdr.one-third.wrap-destacados-cuadro-3.valign-top.clearfix {
+    background-color: #e7e8f4;
+    height: 290px;
+    /*width:350px;*/
+}
+
+.cuadro-3-destacados {
+    display: flex;
+}
+
+p.prf-contactenos {
+    position: absolute;
+    padding-top: 90px;
+    color: black;
+}
+
+h3.donde-comprar-destacados-titulo,
+h3.soporte-destacados-titulo,
+h3.contactenos-destacados-titulo {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+p.prf-donde-comprar,
+p.prf-soporte,
+p.prf-contactenos {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+/*esta imagen está fuera del div de contacto*/
+img.audifonos-contactanos {
+    width: 440px;
+    display: flex;
+    position: absolute;
+    left: 813px;
+    top: -310px;
+    padding-left: 0px;
+}
+/*boton-fuera del cuadro*/
+.column.mcb-column.mcb-item-o9mkc8qfe.one.column_button {
+    margin-left: 840px;
+    margin-top: -135px;
+}
+
+/*boton cuadro3*/
+
+.column.mcb-column.mcb-item-5h6wwtftd.one.column_button {
+    margin-top: 100px;
+    margin-left: 20px;
+}
+
+/*media query- refrigeradores clone*/
+
+/*movil*/
+@media screen and (max-width: 414px) {
+    /*primer fila*/
+
+    /*segunda fila*/
+    .div-refrigeradores {
+        margin-top: 11px;
+        margin-left: 0px;
+        margin-right: 0px;
+        font-family: "avenir-black-strong";
+        font-size: 11px;
+    }
+    h1.avenir-black-refrigeradores {
+        font-size: 16px;
+    }
+    .segunda-fila {
+        flex-direction: column;
+    }
+    .div-texto {
+        margin-right: 0px;
+        font-family: "avenir-book-normal";
+    }
+    /*tercera fila*/
+    .titulo-1,
+    .titulo-2,
+    .titulo-3,
+    .titulo-4 {
+        margin-top: 130px;
+        font-size: 20px;
+        text-align: center;
+        color: white;
+        margin-right: 00px;
+    }
+
+    .tercer-fila {
+        margin-left: -5px;
+        margin-right: 00px;
+        flex-direction: column;
+    }
+    .cuadro-1 {
+        width: 320px;
+        margin-bottom: 10px;
+    }
+    .cuadro-2 {
+        width: 320px;
+        margin-bottom: 10px;
+    }
+    .cuadro-3 {
+        width: 320px;
+        margin-bottom: 10px;
+    }
+    .cuadro-4 {
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 320px;
+        margin-bottom: 10px;
+    }
+    /*cuarta fila*/
+
+    /*cuadro 1*/
+    .wrap.mcb-wrap.mcb-wrap-zhpa9q15x.one-third.wrap-destacados-cuadro-1.valign-top.clearfix {
+        background-color: #e7e8f4;
+        margin-left: -25px;
+        margin-right: 0px;
+        margin-bottom: 30px;
+        height: 180px;
+    }
+
+    img.img-uno-donde-comrar {
+        width: 120px;
+        margin-left: 78px;
+        margin-top: -10px;
+        margin-bottom: -80px;
+    }
+    p.prf-donde-comprar {
+        position: none;
+        padding-top: 50px;
+        color: black;
+    }
+    .column.mcb-column.mcb-item-nru7361yk.one.column_button {
+        margin-top: -10px;
+        margin-left: 20px;
+    }
+    /*cuadro 2*/
+    .wrap.mcb-wrap.mcb-wrap-6xlrvrv8v.one-third.wrap-destacados-cuadro-2.valign-top.clearfix {
+        background-color: #e7e8f4;
+        margin-left: -25px;
+        padding-bottom: 19px;
+        margin-bottom: 30px;
+    }
+    p.prf-soporte {
+        position: absolute;
+        padding-top: 40px;
+        color: black;
+    }
+    img.img-dos-soporte {
+        width: 160px;
+        margin-left: 68px;
+        margin-top: -20px;
+        margin-bottom: -176px;
+    }
+
+    .column.mcb-column.mcb-item-tx9blf259.one.column_button {
+        margin-left: 20px;
+        margin-top: 35px;
+    }
+    /*cuadro 3 inicio*/
+    .wrap.mcb-wrap.mcb-wrap-1ajemqtdr.one-third.wrap-destacados-cuadro-3.valign-top.clearfix {
+        background-color: #e7e8f4;
+        height: 190px;
+        margin-left: -25px;
+    }
+    p.prf-contactenos {
+        position: absolute;
+        padding-top: 40px;
+        color: black;
+    }
+    /*esta imagen está fuera del div de contacto*/
+    img.audifonos-contactanos {
+        width: 490px;
+        display: flex;
+        position: absolute;
+        left: -25px;
+        top: -190px;
+        padding-left: 0px;
+    }
+    /*boton-fuera del cuadro*/
+    .column.mcb-column.mcb-item-o9mkc8qfe.one.column_button {
+        margin-left: 0px;
+        margin-top: -100px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    /*cuadro 1*/
+    img.img-uno-donde-comrar {
+        width: 120px;
+        margin-left: 120px;
+        margin-top: -10px;
+        margin-bottom: -80px;
+    }
+    /*cuadro 2*/
+    img.img-dos-soporte {
+        width: 160px;
+        margin-left: 128px;
+        margin-top: -20px;
+        margin-bottom: -176px;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    /*cuarta fila*/
+    /*cuadro 1*/
+    img.img-uno-donde-comrar {
+        width: 120px;
+        margin-left: 167px;
+        margin-top: -10px;
+        margin-bottom: -80px;
+    }
+    /*cuadro 2*/
+    img.img-dos-soporte {
+        width: 160px;
+        margin-left: 167px;
+        margin-top: -20px;
+        margin-bottom: -176px;
+    }
+}
+@media screen and (max-width: 375px) {
+    /*cuadro 1*/
+    img.img-uno-donde-comrar {
+        width: 120px;
+        margin-left: 144px;
+        margin-top: -10px;
+        margin-bottom: -80px;
+    }
+    /*cuadro 2*/
+    img.img-dos-soporte {
+        width: 160px;
+        margin-left: 135px;
+        margin-top: -20px;
+        margin-bottom: -176px;
+    }
+}
+
+/*ultimo refrigeradores tablets*/
+@media screen and (min-width: 425px) and(max-width: 790px) {
+    .div-refrigeradores {
+        margin-top: 11px;
+        margin-left: 0px;
+        margin-right: 0px;
+        font-family: "avenir-black-strong";
+        font-size: 11px;
+    }
+
+    .segunda-fila {
+        flex-direction: column;
+    }
+
+    .div-texto {
+        margin-right: 0px;
+        font-family: "avenir-book-normal";
+    }
+
+    .tercer-fila {
+        margin-left: -5px;
+        margin-right: 00px;
+    }
+    /*tercera fila*/
+    .titulo-1,
+    .titulo-2,
+    .titulo-3,
+    .titulo-4 {
+        margin-top: 120px;
+        font-size: 10px;
+        text-align: center;
+        color: white;
+        margin-right: 00px;
+    }
+    .cuadro-1 {
+        width: 320px;
+        margin-bottom: 10px;
+    }
+    .cuadro-2 {
+        width: 320px;
+        margin-bottom: 10px;
+    }
+    .cuadro-3 {
+        width: 320px;
+        margin-bottom: 10px;
+    }
+    .cuadro-4 {
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 320px;
+        margin-bottom: 10px;
+    }
+
+    /*cuadro 1*/
+    .wrap.mcb-wrap.mcb-wrap-zhpa9q15x.one-third.wrap-destacados-cuadro-1.valign-top.clearfix {
+        background-color: #e7e8f4;
+        margin-left: -25px;
+        margin-right: 0px;
+        margin-bottom: 30px;
+        height: 180px;
+    }
+    img.img-uno-donde-comrar {
+        width: 120px;
+        margin-left: 278px;
+        margin-top: -10px;
+        margin-bottom: -80px;
+    }
+
+    /*Cuadro donde comprar*/
+    p.prf-donde-comprar {
+        position: none;
+        padding-top: 50px;
+        color: black;
+    }
+
+    .column.mcb-column.mcb-item-nru7361yk.one.column_button {
+        margin-top: -10px;
+        margin-left: 20px;
+    }
+
+    img.img-uno-donde-comrar {
+        width: 120px;
+        margin-left: 178px;
+        margin-top: -10px;
+        margin-bottom: -80px;
+    }
+    /*cuadro soporte*/
+    .wrap.mcb-wrap.mcb-wrap-6xlrvrv8v.one-third.wrap-destacados-cuadro-2.valign-top.clearfix {
+        background-color: #e7e8f4;
+        margin-left: -25px;
+        padding-bottom: 19px;
+        margin-bottom: 30px;
+        height: 190px;
+    }
+    img.img-dos-soporte {
+        width: 160px;
+        margin-left: 168px;
+        margin-top: -20px;
+        margin-bottom: -176px;
+    }
+    .column.mcb-column.mcb-item-tx9blf259.one.column_button {
+        margin-left: 20px;
+        margin-top: 60px;
+    }
+    p.prf-soporte {
+        position: absolute;
+        padding-top: 40px;
+        color: black;
+    }
+
+    /*cuadro contactenos*/
+    .wrap.mcb-wrap.mcb-wrap-1ajemqtdr.one-third.wrap-destacados-cuadro-3.valign-top.clearfix {
+        background-color: #e7e8f4;
+        height: 190px;
+        margin-left: -25px;
+    }
+    p.prf-contactenos {
+        position: absolute;
+        padding-top: 40px;
+        color: black;
+    }
+    /*esta imagen está fuera del div de contacto*/
+    img.audifonos-contactanos {
+        width: 400px;
+        display: flex;
+        position: absolute;
+        left: -10px;
+        top: -200px;
+        padding-left: 40px;
+    }
+    /*boton-fuera del cuadro*/
+    .column.mcb-column.mcb-item-o9mkc8qfe.one.column_button {
+        margin-left: 0px;
+        margin-top: -100px;
+    }
+}

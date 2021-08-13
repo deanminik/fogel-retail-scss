@@ -1,0 +1,447 @@
+/*donde comprar section*/
+
+.wrap.mcb-wrap.mcb-wrap-85r8z119o.one.div-contenedor-dc.valign-top.clearfix {
+    margin-top: 40px;
+}
+
+h4.donde-comprar-avenir-book {
+    font-family: "avenir-book-normal";
+    margin-left: -150px;
+}
+
+h2.avenir-black-don-comp {
+    font-family: "avenir-black-strong";
+    font-size: 36px;
+    line-height: 43px;
+}
+
+p.parr-avenirbook-16-dc {
+    font-family: "avenir-book-normal";
+    font-size: 16px;
+}
+
+ul.lista-paises {
+    display: flex;
+}
+
+li.pais {
+    font-family: "avenir-black-strong";
+    color: black;
+    padding: 15px;
+    font-size: 16px;
+}
+
+li.pais:hover {
+    background-color: #3175bc;
+    color: white;
+}
+
+.gris-guatemala {
+    background-color: #e7e7f5;
+}
+
+.gris-guatemala h3 {
+    font-size: 16px;
+    font-family: avenir-black;
+    padding: 4px 10px;
+}
+.guatemala {
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-flow: row wrap;
+}
+
+.guatemala a {
+    color: black;
+    display: flex;
+    flex-direction: row;
+}
+.guatemala a img {
+    margin-right: 5px;
+    padding-top: 3px;
+    margin-bottom: -4px;
+}
+.guatemala-abco {
+    margin: 11px;
+    position: relative;
+    top: 19px;
+}
+.guatemala-indiasa {
+    margin: 11px;
+}
+
+@media screen and (max-width: 414px) {
+    .guatemala-indiasa {
+        position: relative;
+        top: 45px;
+    }
+}
+
+@media screen and (max-width: 445) {
+    .guatemala-indiasa {
+        margin-top: 45px;
+    }
+    .guatemala-ricza {
+        top: 21px;
+    }
+}
+.guatemala-ricza {
+    margin: 11px;
+    top: 36px;
+    position: relative;
+}
+
+/*guatemala linea 2*/
+
+.guatemala-linea-2 {
+    color: black;
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+    width: 56%;
+    flex-flow: row wrap;
+}
+@media screen and (max-width: 414px) {
+    .guatemala-linea-2 {
+        flex-direction: column;
+    }
+}
+.guatemala-linea-2 a {
+    color: black;
+    display: block;
+}
+
+.guatemala-linea-2 a img {
+    margin-right: 5px;
+    padding-top: 3px;
+    margin-bottom: -4px;
+}
+// .guatemala-vivendo {
+//     margin-left: 206px;
+//     margin-top: 25px;
+// }
+
+.guatemala-ricza p {
+    margin-top: 18px;
+}
+.honduras-salvador {
+    display: flex;
+    width: 100% !important;
+}
+@media screen and (max-width: 450px) {
+    .honduras-salvador {
+        flex-direction: column;
+    }
+}
+
+.honduras {
+    color: black;
+
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.honduras a {
+    color: black;
+    display: block;
+}
+
+.honduras a img {
+    margin-right: 5px;
+    padding-top: 3px;
+    margin-bottom: -4px;
+}
+
+/*salvador*/
+
+.el-salvador {
+    color: black;
+
+    flex-direction: column;
+    flex-grow: 1;
+    padding-left: 80px;
+}
+@media screen and (max-width: 445px) {
+    .el-salvador {
+        padding-left: 0px;
+        margin-top: 25px;
+    }
+}
+
+.el-salvador a {
+    color: black;
+    display: block;
+}
+
+.el-salvador a img {
+    margin-right: 5px;
+    padding-top: 3px;
+    margin-bottom: -4px;
+}
+@media screen and (min-width: 768px) {
+    .slavador-omnis {
+        top: 32px;
+        position: relative;
+    }
+}
+
+.nicaragua-costa.rica {
+    display: flex;
+    justify-content: space-between;
+}
+@media screen and (max-width: 450px) {
+    .nicaragua-costa.rica {
+        flex-direction: column;
+    }
+}
+/*nicaragua*/
+.nicaragua {
+    color: black;
+    // display: flex;
+    flex-grow: 1;
+}
+.nicaragua a {
+    color: black;
+    display: block;
+}
+.nicaragua a img {
+    margin-right: 5px;
+    padding-top: 3px;
+    margin-bottom: -4px;
+}
+
+.costa-rica {
+    color: black;
+    //     display: flex;
+    flex-grow: 1;
+    padding-left: 80px;
+    // }
+}
+
+@media screen and(max-width:450px) {
+    .costa-rica {
+        padding-left: 0px;
+        position: relative;
+        top: 23px;
+    }
+}
+.costa-rica a {
+    color: black;
+    display: block;
+}
+
+.costa-rica a img {
+    margin-right: 5px;
+    padding-top: 3px;
+    margin-bottom: -4px;
+}
+
+.panama-colombia {
+    display: flex;
+    justify-content: space-between;
+}
+@media screen and (max-width: 450px) {
+    .panama-colombia {
+        flex-direction: column;
+    }
+}
+.panama {
+    color: black;
+    // display: flex;
+    flex-grow: 1;
+    margin-top: 23px;
+    width: 17%;
+    margin-right: 8%;
+}
+
+@media screen and (max-width: 952px) {
+    .panama {
+        width: 30%;
+        margin-right: 14%;
+    }
+}
+@media screen and (max-width: 450px) {
+    .panama {
+        width: 100%;
+    }
+}
+.panama a {
+    color: black;
+    display: block;
+}
+
+.panama a img {
+    margin-right: 5px;
+    padding-top: 3px;
+    margin-bottom: -4px;
+}
+
+.colombia {
+    color: black;
+    // display: flex;
+    flex-grow: 1;
+    // padding-left: 80px;
+    position: relative;
+    top: 23px;
+}
+
+@media screen and(max-width:450px) {
+    .colombia {
+        padding-left: 0px;
+        position: relative;
+        top: 23px;
+    }
+}
+.colombia a {
+    color: black;
+    display: block;
+}
+
+.colombia a img {
+    margin-right: 5px;
+    padding-top: 3px;
+    margin-bottom: -4px;
+}
+
+.ecuador-mexico {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (min-width: 451px) {
+    .ecuador-mexico {
+        margin-top: 51px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .ecuador-mexico {
+        flex-direction: column;
+    }
+    .ecuador {
+        width: 100% !important;
+        margin-top: 23px;
+    }
+    .mexico {
+        width: 100% !important;
+        margin-top: 23px;
+    }
+}
+
+.ecuador {
+    color: black;
+    // display: flex;
+    width: 45%;
+}
+
+.ecuador a {
+    color: black;
+    display: block;
+}
+
+.ecuador a img {
+    margin-right: 5px;
+    padding-top: 3px;
+    margin-bottom: -4px;
+}
+
+.mexico {
+    color: black;
+    // display: flex;
+    width: 47%;
+}
+
+.mexico a {
+    color: black;
+    display: block;
+}
+
+.mexico a img {
+    margin-right: 5px;
+    padding-top: 3px;
+    margin-bottom: -4px;
+}
+
+.peru-1 {
+    color: black;
+    display: flex;
+
+justify-content: space-between;
+flex-flow: row wrap;
+}
+@media screen and (max-width:450px) {
+    .peru-1 {
+    flex-direction: column;
+    }   
+}
+
+.peru-1 a {
+    color: black;
+    display: block;
+}
+
+.peru-1 a img {
+    margin-right: 5px;
+    padding-top: 3px;
+    margin-bottom: -4px;
+}
+
+.peru-fogel {
+    // margin-right: 275px;
+    margin-top: 49px;
+}
+.peru-redisa {
+    margin-top: 30px;
+}
+.peru-miyagui {
+    // margin-left: 203px;
+    margin-top: 40px;
+}
+.peru-2 {
+    color: black;
+    display: flex;
+    margin-top: 30px;
+    flex-flow: row wrap;
+}
+
+.peru-2 a {
+    color: black;
+    display: block;
+}
+
+.peru-2 a img {
+    margin-right: 5px;
+    padding-top: 3px;
+    margin-bottom: -4px;
+}
+.peru-friosol {
+    // margin-right: 260px;
+    width: 38%;
+}
+
+@media screen and(max-width:450px) {
+    .peru-friosol {
+        // margin-right: 260px;
+        width: 100%;
+    }
+    .peru-foodservice {
+        margin-top: 22px;
+    }
+}
+
+
+
+@media screen and (max-width:768px) {
+    .peru-2 {
+       
+        justify-content: space-between;
+    }
+    
+}
+
+
+
+// id="honduras-section"
+// id="guatemala-section"

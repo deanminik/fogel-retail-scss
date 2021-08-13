@@ -1,0 +1,120 @@
+/*general section*/
+div#trp-floater-ls-current-language {
+  display: none !important;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+}
+
+@font-face {
+  font-family: "avenir-book";
+  src: url(./assets/fonts/AVENIR-BOOK.TTF);
+}
+
+@font-face {
+  font-family: "avenir-black";
+  src: url(./assets/fonts/AVENIR-BLACK.TTF);
+}
+
+.btn-light-blue {
+  font-size: 12px;
+  letter-spacing: 1px;
+  line-height: 24px;
+  color: #ffffff;
+  font-weight: 800;
+  font-family: avenir-black;
+  text-align: center;
+  background-color: #2f75bb;
+  padding: 2%;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-top: 5%;
+  transition: 0.3s;
+  width: 200px;
+  display: block;
+}
+
+.btn-light-blue:hover {
+  background-color: #444444;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.__h2 {
+  font-family: avenir-black;
+  font-size: 2.25em;
+}
+
+.__h3-avenir-black {
+  font-family: avenir-black;
+  font-size: 1.875rem;
+}
+
+@media screen and (max-width: 480px) {
+  .__h2-type-1,
+  .__h2-type-2 {
+    font-size: 1.25em;
+  }
+}
+
+@media only screen and (min-width: 75em) {
+  .index-container {
+    width: 100% !important;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .btn_contacto {
+    position: fixed;
+    bottom: 218px;
+    right: -218px;
+    width: 210px;
+    height: 32px;
+    background: url(" https://www.fogelretail.com/wp-content/uploads/2021/06/contactenos.png") no-repeat 13px 6px #2f75bb;
+    background-color: #2f75bb;
+    transition: all 0.4s;
+    text-align: center;
+    font-size: 30px;
+    line-height: 0.84;
+    overflow: hidden;
+    padding: 6px 8px 14px 62px;
+    text-align: left;
+    z-index: 999;
+    font-family: avenir-black;
+    color: #ffffff;
+    font-style: normal;
+  }
+  .btn_contacto em {
+    font-style: normal !important;
+    position: relative;
+    top: 6px !important;
+  }
+  .btn_contacto:hover {
+    right: 0px;
+    text-decoration: none;
+    color: #ffffff !important;
+    font-family: avenir-black !important;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .btn_contacto {
+    display: none;
+  }
+}
+
+.download-pdf-product {
+  color: white;
+  background-color: black;
+  text-transform: uppercase;
+  font-family: 'avenir-black';
+  padding: 5px;
+}
+/*# sourceMappingURL=button-black-style.css.map */

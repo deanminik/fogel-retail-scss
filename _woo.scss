@@ -1,0 +1,18 @@
+/*woocommerce section*/
+
+.woocommerce #respond input#submit.added::after,
+.woocommerce a.button.added::after,
+.woocommerce button.button.added::after,
+.woocommerce input.button.added::after {
+    content: none !important;
+}
+
+a.button::after,
+a.tp-button::after,
+a.action_button::after,
+button::after,
+input[type="submit"]::after,
+input[type="reset"]::after,
+input[type="button"]::after {
+    content: none !important;
+}

@@ -1,0 +1,58 @@
+/*contacto section*/
+
+.contacto-titulo{
+  
+    font-family: 'avenir-black-strong';
+    font-size: 36px;
+    line-height: 31px;
+    text-transform: uppercase;
+}
+.container-contacto {
+    margin-top: 50px;
+}
+
+.iconos-contacto {
+    width: 60px;
+}
+
+.info-contacto-titulos {
+    font-size: 25px;
+}
+.enlace-contacto {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.row-contact {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    text-align: center !important;
+}
+
+@media screen and (min-width:992px) {
+    .phone-section {
+        width: 33% !important;
+    }
+    .addres-section {
+        width: 33% !important;
+    }
+    
+}
+
+@media screen and (max-width:415px) {
+    .row-contact {
+        display: flex;
+        justify-content: space-around;
+        flex-flow: row wrap;
+        flex-direction: column;
+        text-align: center;
+    }
+    .phone-section {
+        margin-bottom: 30px;
+    }
+    .email-section {
+        margin-bottom: 30px;
+    }
+}

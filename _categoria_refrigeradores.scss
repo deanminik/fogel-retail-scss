@@ -1,0 +1,30 @@
+/*categoria refrigeradores*/
+
+
+.refrigeradores__puertas_de_vidrio{
+    /* background-image: url(../assets/images/Categorías-productos/Refrigeradores-verticales---vitrinas-refrigeradoras---fogel.jpg); */
+    background-image: url(https://www.fogelretail.com/wp-content/uploads/2021/05/Refrigeradores-verticales-vitrinas-refrigeradoras-fogel.jpg);
+}
+
+.refrigeradores__puertas_solidas{
+    /* background-image: url(../assets/images/Categorías-productos/Refrigeradores-para-cocinas---refrigeradores-puerta-solida---fogel.jpg); */
+    background-image: url(https://www.fogelretail.com/wp-content/uploads/2021/05/Refrigeradores-para-cocinas-refrigeradores-puerta-solida-fogel.jpg);
+}
+
+.refrigeradores__froster{
+    /* background-image: url(../assets/images/Categorías-productos/Refrigeradores-para-cervezas---froster---fogel.jpg); */ 
+    background-image: url(https://www.fogelretail.com/wp-content/uploads/2021/05/Refrigeradores-para-cervezas-froster-fogel.jpg);
+    text-align: center;
+}
+
+.refrigeradores__horizontal{
+    /* background-image: url(../assets/images/Categorías-productos/Refrigeradores-para-bebidas---refrigeradores-horizontales---fogel.jpg);  */
+    background-image: url(https://www.fogelretail.com/wp-content/uploads/2021/05/Refrigeradores-para-bebidas-refrigeradores-horizontales-fogel.jpg);
+}
+
+@media screen and(max-width:835px) {
+    .category_title_description {
+        display: flex;
+        flex-direction: column;
+    }
+}

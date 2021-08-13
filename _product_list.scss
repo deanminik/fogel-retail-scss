@@ -1,0 +1,33 @@
+/*product list section*/
+
+.isotope-item.product.type-product{
+    display: flex !important;
+    flex-direction: column !important;
+    text-align: center;
+}
+
+.button.product_type_simple {
+    margin-bottom: 15px !important;
+    left:0px !important;
+}
+
+.compare.button.added{
+    left: 0px !important;
+}
+
+@media screen and (max-width:500px) {
+    .products.grid li {
+        padding-bottom: 61px !important;
+    }
+    .products.grid .desc {
+        display: fles;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .desc h4 {
+       
+        padding-bottom: 11%;
+        top: -25px !important;
+    }
+}

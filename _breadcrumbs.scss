@@ -1,0 +1,47 @@
+/*breadcrumbs section*/
+
+.container .column.one .breadcrumbs.woocommerce-breadcrumb {
+    text-align: left !important;
+}
+
+.container .column.one .breadcrumbs.woocommerce-breadcrumb li:nth-child(1) a {
+    font-size: 20px;
+    color: transparent !important;
+    background-image: url(https://www.fogelretail.com/wp-content/uploads/2021/03/Shape-2.png);
+    background-repeat: no-repeat;
+    position: relative;
+    top: 6px;
+    left: 35px;
+}
+
+// .breadcrumbs.woocommerce-breadcrumb {
+//     font-size: 14px;
+//     letter-spacing: 0px;
+//     line-height: 30px;
+//     color: #3a3a3a;
+//     font-family: avenir-book;
+// }
+
+//------------------------- 
+//pages top 
+.subheader-both-center #Subheader .breadcrumbs {
+  
+    text-align: left !important;
+   
+}
+
+#Subheader ul.breadcrumbs li:nth-child(1) a{
+    font-size: 20px;
+    color: transparent !important;
+    background-image: url(https://www.fogelretail.com/wp-content/uploads/2021/03/Shape-2.png);
+    background-repeat: no-repeat;
+    position: relative;
+    top: 6px;
+    left: 35px;
+}
+
+
+
+.icon-right-open{
+    color: #2f75bb !important;
+}

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+
+.category-container .category-container__row a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 8%;
+  
+}
+
+.category-container__row{
+    display: flex;
+    flex-direction: column;
+    flex-flow: row wrap;
+    justify-content: center;
+   
+   
+}
+
+
+
+.category {
+    width: 273px;
+    min-width: 150px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 1% 1%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    box-shadow: inset 0 -2em 4em rgb(0 0 0 / 75%), 0 0 0 -4px rgb(255 255 255), 0.3em 0.1em 1em rgb(0 0 0 / 10%)
+}
+
+
+.refrigeradores__puertas_de_vidrio{
+    /* background-image: url(../assets/images/Categorías-productos/Refrigeradores-verticales---vitrinas-refrigeradoras---fogel.jpg); */
+    background-image: url(https://www.fogelretail.com/wp-content/uploads/2021/05/Refrigeradores-verticales-vitrinas-refrigeradoras-fogel.jpg);
+}
+
+.refrigeradores__puertas_solidas{
+    /* background-image: url(../assets/images/Categorías-productos/Refrigeradores-para-cocinas---refrigeradores-puerta-solida---fogel.jpg); */
+    background-image: url(https://www.fogelretail.com/wp-content/uploads/2021/05/Refrigeradores-para-cocinas-refrigeradores-puerta-solida-fogel.jpg);
+}
+
+.refrigeradores__froster{
+    /* background-image: url(../assets/images/Categorías-productos/Refrigeradores-para-cervezas---froster---fogel.jpg); */ 
+    background-image: url(https://www.fogelretail.com/wp-content/uploads/2021/05/Refrigeradores-para-cervezas-froster-fogel.jpg);
+    text-align: center;
+}
+
+.refrigeradores__horizontal{
+    /* background-image: url(../assets/images/Categorías-productos/Refrigeradores-para-bebidas---refrigeradores-horizontales---fogel.jpg);  */
+    background-image: url(https://www.fogelretail.com/wp-content/uploads/2021/05/Refrigeradores-para-bebidas-refrigeradores-horizontales-fogel.jpg);
+}
+@media screen and (min-width:768px) {
+    .category-container__row{
+     width: 100%;    
+    flex-direction: row;
+    
+   
+   }
+
+   .category_title_description {
+    display: flex;
+  }
+   .category_title_description h1{
+    font-size:36px;
+  }
+  .category_title_description__h1{
+    margin-right: 30%;
+  }
+    
+}
+</style>
+
+</head>
+<body>
+    <div class="category-container">
+        <div class="category_title_description">
+            <div class="category_title_description__h1">
+                <h1>refrigeradores</h1>
+            </div>
+            <div class="category_title_description__p">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta magni repellendus at, ratione perferendis aliquam accusamus laborum aspernatur consequatur laboriosam, dolore itaque ab molestiae voluptatum nulla iste explicabo deserunt? Perferendis?</p>
+            </div>
+            
+
+        </div>
+        <div class="category-container__row">
+            <div class=" category refrigeradores__puertas_de_vidrio">
+                <a href="https://www.fogelretail.com/product-category/refrigeradores/puertas-de-vidrio/">puertas de vidrio</a>
+            </div>
+            <div class=" category refrigeradores__puertas_solidas">
+                <a href="https://www.fogelretail.com/product-category/refrigeradores/puertas-solidas-refrigeradores/">puertas sólidas</a>
+            </div>
+            <div class=" category refrigeradores__froster">
+                <a href="https://www.fogelretail.com/product-category/refrigeradores/froster-para-cervezas-bajo-0-c/">froster ® para<br>
+                    cervezas bajo 0° C</a>
+            </div>
+            <div class=" category refrigeradores__horizontal">
+                <a href="https://www.fogelretail.com/product-category/refrigeradores/horizontal/">horizontales</a>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .footer-container-black {
+        background-color: black;
+        padding: 1% 1%;
+      }
+      .footer-container-black__row {
+        display: flex;
+        flex-direction: row;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        border-bottom: 1px solid gray;
+        padding-bottom: 5px;
+      }
+      @media screen and (max-width: 768px) {
+        .footer-container-black__row {
+          display: flex;
+          flex-direction: column;
+          /* flex-flow: row wrap;
+        justify-content: space-between;
+        border-bottom: 1px solid gray;
+        padding-bottom: 5px; */
+        }
+        .bloque-1 {
+          display: flex;
+          justify-content: flex-start;
+        }
+      }
+      .bloque-1,
+      .bloque-2,
+      .bloque-3 {
+        width: 33.3%;
+      }
+      .bloque-2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+      }
+      .bloque-2 a {
+        color: white;
+        text-decoration: none;
+        margin: 0 10px;
+        text-align: center;
+      }
+      .bloque-3 {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+      }
+      .facebook-footer,
+      .youtube-footer,
+      .instagram-footer {
+        width: 16px;
+        margin: 0 5px;
+      }
+      .footer-container-black__row_2 {
+        display: flex;
+        justify-content: center;
+      }
+      .footer-container-black__row_2 p {
+        color: white;
+        justify-content: center;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="footer-container-black">
+      <div class="footer-container-black__row">
+        <div class="bloque-1">
+          <a href="https://www.fogelretail.com"
+            ><img
+              class="fogel-img-footer"
+              src="https://www.fogelretail.com/wp-content/uploads/2021/06/fogel-footer.png"
+              alt=""
+          /></a>
+        </div>
+        <div class="bloque-2">
+          <div class="bloque-2-1"><a href="">MAPA DEL SITIO</a></div>
+          <div class="bloque-2-2"><a href="">POLÍTICA DE PRIVACIDAD</a></div>
+          <div class="bloque-2-3"><a href="">TÉRMINOS Y CONDICIONES</a></div>
+        </div>
+        <div class="bloque-3">
+          <div>
+            <img
+              class="facebook-footer"
+              src="https://www.fogelretail.com/wp-content/uploads/2021/06/facebook-footer.png"
+              alt=""
+            />
+          </div>
+          <div>
+            <img
+              class="youtube-footer"
+              src="https://www.fogelretail.com/wp-content/uploads/2021/06/youtube-footer.png"
+              alt=""
+            />
+          </div>
+          <div>
+            <img
+              class="instagram-footer"
+              src="https://www.fogelretail.com/wp-content/uploads/2021/06/instagram-footer.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+      <div class="footer-container-black__row_2">
+        <p>
+          © 2021 Grupo Fogel - Todos los derechos reservados | Diseño: ARWEB.com
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,205 @@
+/*sobre nosotros section*/
+
+h4.sobre-nosotros-avenir-book {
+    font-family: "avenir-book-normal";
+    margin-left: -150px;
+}
+
+.wrap.mcb-wrap.mcb-wrap-49z1yiley.one.div-contenedor-sn.valign-top.clearfix {
+    margin-top: 40px;
+}
+
+h2.avenir-black-sob-nos {
+    font-family: "avenir-black-strong";
+    font-size: 36px;
+}
+
+p.parr-avenirbook-16 {
+    font-family: "avenir-book-normal";
+    font-size: 16px;
+}
+
+h3.avenir-book-30-suplimos {
+    font-family: "avenir-book-normal";
+    font-size: 30px;
+}
+
+h3.avenir-black-30-enmaspaises {
+    font-family: "avenir-black-strong";
+    font-size: 30px;
+}
+
+.column.mcb-column.mcb-item-0h47uw83v.two-third.column_image.imagen-cajas {
+    z-index: 1;
+}
+
+.column.mcb-column.mcb-item-7v3vrdckx.one-third.column_column.texto-imagen-cajas {
+    /* background-color: blue; */
+    background-color: #ffffff;
+    opacity: 0.9;
+    margin-left: -100px;
+    z-index: 2;
+    position: absolute;
+    left: 770px;
+    top: 202px;
+    padding: 20px;
+}
+p.avenirbook-16-desde-fabri {
+    font-family: "avenir-book-normal";
+    font-size: 16px;
+}
+
+p.avenirbook-16-comprendemos {
+    font-family: "avenir-book-normal";
+    font-size: 16px;
+}
+
+span.avenirblack-30-manu {
+    font-family: "avenir-black-strong";
+    font-size: 30px;
+    color: black;
+}
+
+p.avenirbook-30-capaci {
+    color: black;
+    font-family: "avenir-book-normal";
+    font-size: 30px;
+}
+
+/*1*/
+h3.avenirblack-24-produccion {
+    font-family: "avenir-black-strong";
+    font-size: 24px;
+}
+
+p.avenirbook-16-refrigera {
+    font-family: "avenir-book-normal";
+    font-size: 16px;
+}
+
+/*2*/
+h3.avenirblack-24-area {
+    font-family: "avenir-black-strong";
+    font-size: 24px;
+}
+p.avenirbook-16-metros {
+    font-family: "avenir-book-normal";
+    font-size: 16px;
+}
+
+/*3*/
+h3.avenirblack-24-mercados {
+    font-family: "avenir-black-strong";
+    font-size: 24px;
+}
+
+p.avenirbook-16-norte {
+    font-family: "avenir-book-normal";
+    font-size: 16px;
+}
+.column.mcb-column.mcb-item-z8igf4233.one-sixth.column_image.img-uno-produccion {
+    padding-left: 80px;
+}
+
+.column.mcb-column.mcb-item-q7ko0ow4l.one-sixth.column_image.img-dos-area {
+    padding-left: 80px;
+}
+
+.column.mcb-column.mcb-item-bw7w1txjl.one-sixth.column_image.img-tres-mercados {
+    padding-left: 80px;
+}
+
+@media screen and(max-width:962px) {
+    .column.mcb-column.mcb-item-7v3vrdckx.one-third.column_column.texto-imagen-cajas {
+        background-color: #ffffff;
+        opacity: 0.9;
+        margin-left: -100px;
+        z-index: 2;
+        position: absolute;
+        left: 582px;
+        top: 167px;
+        padding: 21px;
+        text-align: end;
+    }
+}
+
+@media screen and (max-width: 836px) {
+    .column.mcb-column.mcb-item-7v3vrdckx.one-third.column_column.texto-imagen-cajas {
+        background-color: #ffffff;
+        opacity: 0.9;
+        margin-left: -100px;
+        z-index: 2;
+        position: absolute;
+        left: 496px;
+        top: 124px;
+        padding: 21px;
+        text-align: end;
+    }
+    .avenirblack-30-manu {
+        line-height: 45px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .column.mcb-column.mcb-item-7v3vrdckx.one-third.column_column.texto-imagen-cajas {
+        background-color: #ffffff;
+        opacity: 0.9;
+        margin-left: -100px;
+        z-index: 2;
+        position: absolute;
+        left: 62px;
+        top: 29px;
+        padding: 24px;
+        text-align: start;
+        width: 238px !important;
+    }
+    .avenir-book-30-suplimos {
+        line-height: 29px;
+    }
+    .avenir-black-30-enmaspaises {
+        line-height: 29px;
+    }
+    .column.mcb-column.mcb-item-7v3vrdckx.one-third.column_column.texto-imagen-cajas {
+        background-color: #ffffff;
+        opacity: 0.8;
+        margin-left: -100px;
+        z-index: 2;
+        position: absolute;
+        left: 62px;
+        top: 14px;
+        padding: 24px;
+        text-align: start;
+        width: 238px !important;
+        
+    }
+}
+
+@media screen and (max-width:375px) {
+    .column.mcb-column.mcb-item-7v3vrdckx.one-third.column_column.texto-imagen-cajas {
+        background-color: #ffffff;
+        opacity: 0.8;
+        margin-left: -100px;
+        z-index: 2;
+        position: absolute;
+        left: 62px;
+        top: 14px;
+        padding: 24px;
+        text-align: start;
+        width: 219px !important;
+        line-height: 556px !important;
+        height: 168px !important;
+    }
+    
+}
+
+.avenir-black-sob-nos {
+    line-height: 36px;
+}
+
+
+
+.background-sobrenosotros{
+ 
+        background-image: url(https://www.fogelretail.com/wp-content/uploads/2021/04/refrigeracion-comercial-refrigeracion-fogel.jpg) !important;
+    
+}
